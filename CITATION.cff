@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: 'If you use these materials, please cite them as below.'
+title: 'course-access: Accessible teaching materials'
+type: software
+authors:
+  - family-names: 'Shugars'
+    given-names: 'Sarah'
+    orcid: 'https://orcid.org/0000-0002-1917-4313'
+    affiliation: 'Rutgers University'
+  - family-names: 'So'
+    given-names: 'Philip'
+    affiliation: 'Rutgers University'
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: 'https://github.com/ShugarsLab/course-access'
+version: '0.0.1'
+keywords:
+  - accessibility
+  - screen readers
+  - alt text
+  - teaching
+  - quantitative methods
+  - PowerPoint
+  - R Markdown

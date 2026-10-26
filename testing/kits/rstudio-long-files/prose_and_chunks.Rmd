@@ -1,0 +1,906 @@
+---
+title: 'Screen reader long-file test'
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+Keys are given for Windows, then Mac.
+To read continuously: NVDA key plus Down arrow (NVDA), Insert plus Down arrow (JAWS), or Control plus Option plus A (VoiceOver).
+
+Test 1.
+Read from the top, continuously.
+Note the last line number you hear.
+Try this in Source mode, then in Visual mode (Control+Shift+F4, or Command+Shift+F4 on a Mac, switches).
+
+Test 2, folding.
+In Source mode, press Alt+O (Command+Option+O on a Mac) to fold all sections, so each section shrinks to its heading.
+Read down through the headings.
+Then put the cursor on one heading, press Shift+Alt+L (Command+Shift+Option+L on a Mac) to unfold just that section, and read it.
+Note whether your screen reader reads the folded headings and the unfolded section, including sections past line 200.
+
+Test 3, jumping.
+Press Control+End (Command+Down arrow on a Mac) to go to the bottom, then read up.
+Does your screen reader read the last lines?
+Then press Shift+Alt+J (Command+Shift+Option+J on a Mac) to open the Jump To menu, choose Section 35, and read from there continuously.
+
+## Section 1
+
+Paragraph text for section 1, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 1.
+Paragraph text for section 1, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 2.
+Paragraph text for section 1, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 3.
+Paragraph text for section 1, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 4.
+
+```{r}
+x_005 <- 5  # line 5
+x_006 <- 6  # line 6
+x_007 <- 7  # line 7
+x_008 <- 8  # line 8
+```
+
+## Section 2
+
+Paragraph text for section 2, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 9.
+Paragraph text for section 2, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 10.
+Paragraph text for section 2, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 11.
+Paragraph text for section 2, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 12.
+
+```{r}
+x_013 <- 13  # line 13
+x_014 <- 14  # line 14
+x_015 <- 15  # line 15
+x_016 <- 16  # line 16
+```
+
+## Section 3
+
+Paragraph text for section 3, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 17.
+Paragraph text for section 3, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 18.
+Paragraph text for section 3, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 19.
+Paragraph text for section 3, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 20.
+
+```{r}
+x_021 <- 21  # line 21
+x_022 <- 22  # line 22
+x_023 <- 23  # line 23
+x_024 <- 24  # line 24
+```
+
+## Section 4
+
+Paragraph text for section 4, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 25.
+Paragraph text for section 4, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 26.
+Paragraph text for section 4, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 27.
+Paragraph text for section 4, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 28.
+
+```{r}
+x_029 <- 29  # line 29
+x_030 <- 30  # line 30
+x_031 <- 31  # line 31
+x_032 <- 32  # line 32
+```
+
+## Section 5
+
+Paragraph text for section 5, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 33.
+Paragraph text for section 5, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 34.
+Paragraph text for section 5, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 35.
+Paragraph text for section 5, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 36.
+
+```{r}
+x_037 <- 37  # line 37
+x_038 <- 38  # line 38
+x_039 <- 39  # line 39
+x_040 <- 40  # line 40
+```
+
+## Section 6
+
+Paragraph text for section 6, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 41.
+Paragraph text for section 6, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 42.
+Paragraph text for section 6, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 43.
+Paragraph text for section 6, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 44.
+
+```{r}
+x_045 <- 45  # line 45
+x_046 <- 46  # line 46
+x_047 <- 47  # line 47
+x_048 <- 48  # line 48
+```
+
+## Section 7
+
+Paragraph text for section 7, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 49.
+Paragraph text for section 7, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 50.
+Paragraph text for section 7, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 51.
+Paragraph text for section 7, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 52.
+
+```{r}
+x_053 <- 53  # line 53
+x_054 <- 54  # line 54
+x_055 <- 55  # line 55
+x_056 <- 56  # line 56
+```
+
+## Section 8
+
+Paragraph text for section 8, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 57.
+Paragraph text for section 8, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 58.
+Paragraph text for section 8, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 59.
+Paragraph text for section 8, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 60.
+
+```{r}
+x_061 <- 61  # line 61
+x_062 <- 62  # line 62
+x_063 <- 63  # line 63
+x_064 <- 64  # line 64
+```
+
+## Section 9
+
+Paragraph text for section 9, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 65.
+Paragraph text for section 9, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 66.
+Paragraph text for section 9, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 67.
+Paragraph text for section 9, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 68.
+
+```{r}
+x_069 <- 69  # line 69
+x_070 <- 70  # line 70
+x_071 <- 71  # line 71
+x_072 <- 72  # line 72
+```
+
+## Section 10
+
+Paragraph text for section 10, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 73.
+Paragraph text for section 10, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 74.
+Paragraph text for section 10, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 75.
+Paragraph text for section 10, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 76.
+
+```{r}
+x_077 <- 77  # line 77
+x_078 <- 78  # line 78
+x_079 <- 79  # line 79
+x_080 <- 80  # line 80
+```
+
+## Section 11
+
+Paragraph text for section 11, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 81.
+Paragraph text for section 11, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 82.
+Paragraph text for section 11, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 83.
+Paragraph text for section 11, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 84.
+
+```{r}
+x_085 <- 85  # line 85
+x_086 <- 86  # line 86
+x_087 <- 87  # line 87
+x_088 <- 88  # line 88
+```
+
+## Section 12
+
+Paragraph text for section 12, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 89.
+Paragraph text for section 12, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 90.
+Paragraph text for section 12, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 91.
+Paragraph text for section 12, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 92.
+
+```{r}
+x_093 <- 93  # line 93
+x_094 <- 94  # line 94
+x_095 <- 95  # line 95
+x_096 <- 96  # line 96
+```
+
+## Section 13
+
+Paragraph text for section 13, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 97.
+Paragraph text for section 13, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 98.
+Paragraph text for section 13, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 99.
+Paragraph text for section 13, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 100.
+
+```{r}
+x_101 <- 101  # line 101
+x_102 <- 102  # line 102
+x_103 <- 103  # line 103
+x_104 <- 104  # line 104
+```
+
+## Section 14
+
+Paragraph text for section 14, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 105.
+Paragraph text for section 14, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 106.
+Paragraph text for section 14, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 107.
+Paragraph text for section 14, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 108.
+
+```{r}
+x_109 <- 109  # line 109
+x_110 <- 110  # line 110
+x_111 <- 111  # line 111
+x_112 <- 112  # line 112
+```
+
+## Section 15
+
+Paragraph text for section 15, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 113.
+Paragraph text for section 15, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 114.
+Paragraph text for section 15, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 115.
+Paragraph text for section 15, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 116.
+
+```{r}
+x_117 <- 117  # line 117
+x_118 <- 118  # line 118
+x_119 <- 119  # line 119
+x_120 <- 120  # line 120
+```
+
+## Section 16
+
+Paragraph text for section 16, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 121.
+Paragraph text for section 16, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 122.
+Paragraph text for section 16, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 123.
+Paragraph text for section 16, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 124.
+
+```{r}
+x_125 <- 125  # line 125
+x_126 <- 126  # line 126
+x_127 <- 127  # line 127
+x_128 <- 128  # line 128
+```
+
+## Section 17
+
+Paragraph text for section 17, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 129.
+Paragraph text for section 17, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 130.
+Paragraph text for section 17, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 131.
+Paragraph text for section 17, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 132.
+
+```{r}
+x_133 <- 133  # line 133
+x_134 <- 134  # line 134
+x_135 <- 135  # line 135
+x_136 <- 136  # line 136
+```
+
+## Section 18
+
+Paragraph text for section 18, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 137.
+Paragraph text for section 18, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 138.
+Paragraph text for section 18, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 139.
+Paragraph text for section 18, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 140.
+
+```{r}
+x_141 <- 141  # line 141
+x_142 <- 142  # line 142
+x_143 <- 143  # line 143
+x_144 <- 144  # line 144
+```
+
+## Section 19
+
+Paragraph text for section 19, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 145.
+Paragraph text for section 19, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 146.
+Paragraph text for section 19, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 147.
+Paragraph text for section 19, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 148.
+
+```{r}
+x_149 <- 149  # line 149
+x_150 <- 150  # line 150
+x_151 <- 151  # line 151
+x_152 <- 152  # line 152
+```
+
+## Section 20
+
+Paragraph text for section 20, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 153.
+Paragraph text for section 20, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 154.
+Paragraph text for section 20, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 155.
+Paragraph text for section 20, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 156.
+
+```{r}
+x_157 <- 157  # line 157
+x_158 <- 158  # line 158
+x_159 <- 159  # line 159
+x_160 <- 160  # line 160
+```
+
+## Section 21
+
+Paragraph text for section 21, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 161.
+Paragraph text for section 21, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 162.
+Paragraph text for section 21, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 163.
+Paragraph text for section 21, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 164.
+
+```{r}
+x_165 <- 165  # line 165
+x_166 <- 166  # line 166
+x_167 <- 167  # line 167
+x_168 <- 168  # line 168
+```
+
+## Section 22
+
+Paragraph text for section 22, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 169.
+Paragraph text for section 22, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 170.
+Paragraph text for section 22, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 171.
+Paragraph text for section 22, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 172.
+
+```{r}
+x_173 <- 173  # line 173
+x_174 <- 174  # line 174
+x_175 <- 175  # line 175
+x_176 <- 176  # line 176
+```
+
+## Section 23
+
+Paragraph text for section 23, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 177.
+Paragraph text for section 23, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 178.
+Paragraph text for section 23, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 179.
+Paragraph text for section 23, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 180.
+
+```{r}
+x_181 <- 181  # line 181
+x_182 <- 182  # line 182
+x_183 <- 183  # line 183
+x_184 <- 184  # line 184
+```
+
+## Section 24
+
+Paragraph text for section 24, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 185.
+Paragraph text for section 24, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 186.
+Paragraph text for section 24, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 187.
+Paragraph text for section 24, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 188.
+
+```{r}
+x_189 <- 189  # line 189
+x_190 <- 190  # line 190
+x_191 <- 191  # line 191
+x_192 <- 192  # line 192
+```
+
+## Section 25
+
+Paragraph text for section 25, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 193.
+Paragraph text for section 25, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 194.
+Paragraph text for section 25, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 195.
+Paragraph text for section 25, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 196.
+
+```{r}
+x_197 <- 197  # line 197
+x_198 <- 198  # line 198
+x_199 <- 199  # line 199
+x_200 <- 200  # line 200
+```
+
+## Section 26
+
+Paragraph text for section 26, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 201.
+Paragraph text for section 26, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 202.
+Paragraph text for section 26, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 203.
+Paragraph text for section 26, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 204.
+
+```{r}
+x_205 <- 205  # line 205
+x_206 <- 206  # line 206
+x_207 <- 207  # line 207
+x_208 <- 208  # line 208
+```
+
+## Section 27
+
+Paragraph text for section 27, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 209.
+Paragraph text for section 27, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 210.
+Paragraph text for section 27, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 211.
+Paragraph text for section 27, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 212.
+
+```{r}
+x_213 <- 213  # line 213
+x_214 <- 214  # line 214
+x_215 <- 215  # line 215
+x_216 <- 216  # line 216
+```
+
+## Section 28
+
+Paragraph text for section 28, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 217.
+Paragraph text for section 28, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 218.
+Paragraph text for section 28, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 219.
+Paragraph text for section 28, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 220.
+
+```{r}
+x_221 <- 221  # line 221
+x_222 <- 222  # line 222
+x_223 <- 223  # line 223
+x_224 <- 224  # line 224
+```
+
+## Section 29
+
+Paragraph text for section 29, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 225.
+Paragraph text for section 29, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 226.
+Paragraph text for section 29, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 227.
+Paragraph text for section 29, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 228.
+
+```{r}
+x_229 <- 229  # line 229
+x_230 <- 230  # line 230
+x_231 <- 231  # line 231
+x_232 <- 232  # line 232
+```
+
+## Section 30
+
+Paragraph text for section 30, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 233.
+Paragraph text for section 30, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 234.
+Paragraph text for section 30, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 235.
+Paragraph text for section 30, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 236.
+
+```{r}
+x_237 <- 237  # line 237
+x_238 <- 238  # line 238
+x_239 <- 239  # line 239
+x_240 <- 240  # line 240
+```
+
+## Section 31
+
+Paragraph text for section 31, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 241.
+Paragraph text for section 31, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 242.
+Paragraph text for section 31, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 243.
+Paragraph text for section 31, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 244.
+
+```{r}
+x_245 <- 245  # line 245
+x_246 <- 246  # line 246
+x_247 <- 247  # line 247
+x_248 <- 248  # line 248
+```
+
+## Section 32
+
+Paragraph text for section 32, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 249.
+Paragraph text for section 32, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 250.
+Paragraph text for section 32, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 251.
+Paragraph text for section 32, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 252.
+
+```{r}
+x_253 <- 253  # line 253
+x_254 <- 254  # line 254
+x_255 <- 255  # line 255
+x_256 <- 256  # line 256
+```
+
+## Section 33
+
+Paragraph text for section 33, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 257.
+Paragraph text for section 33, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 258.
+Paragraph text for section 33, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 259.
+Paragraph text for section 33, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 260.
+
+```{r}
+x_261 <- 261  # line 261
+x_262 <- 262  # line 262
+x_263 <- 263  # line 263
+x_264 <- 264  # line 264
+```
+
+## Section 34
+
+Paragraph text for section 34, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 265.
+Paragraph text for section 34, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 266.
+Paragraph text for section 34, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 267.
+Paragraph text for section 34, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 268.
+
+```{r}
+x_269 <- 269  # line 269
+x_270 <- 270  # line 270
+x_271 <- 271  # line 271
+x_272 <- 272  # line 272
+```
+
+## Section 35
+
+Paragraph text for section 35, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 273.
+Paragraph text for section 35, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 274.
+Paragraph text for section 35, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 275.
+Paragraph text for section 35, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 276.
+
+```{r}
+x_277 <- 277  # line 277
+x_278 <- 278  # line 278
+x_279 <- 279  # line 279
+x_280 <- 280  # line 280
+```
+
+## Section 36
+
+Paragraph text for section 36, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 281.
+Paragraph text for section 36, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 282.
+Paragraph text for section 36, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 283.
+Paragraph text for section 36, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 284.
+
+```{r}
+x_285 <- 285  # line 285
+x_286 <- 286  # line 286
+x_287 <- 287  # line 287
+x_288 <- 288  # line 288
+```
+
+## Section 37
+
+Paragraph text for section 37, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 289.
+Paragraph text for section 37, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 290.
+Paragraph text for section 37, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 291.
+Paragraph text for section 37, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 292.
+
+```{r}
+x_293 <- 293  # line 293
+x_294 <- 294  # line 294
+x_295 <- 295  # line 295
+x_296 <- 296  # line 296
+```
+
+## Section 38
+
+Paragraph text for section 38, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 297.
+Paragraph text for section 38, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 298.
+Paragraph text for section 38, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 299.
+Paragraph text for section 38, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 300.
+
+```{r}
+x_301 <- 301  # line 301
+x_302 <- 302  # line 302
+x_303 <- 303  # line 303
+x_304 <- 304  # line 304
+```
+
+## Section 39
+
+Paragraph text for section 39, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 305.
+Paragraph text for section 39, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 306.
+Paragraph text for section 39, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 307.
+Paragraph text for section 39, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 308.
+
+```{r}
+x_309 <- 309  # line 309
+x_310 <- 310  # line 310
+x_311 <- 311  # line 311
+x_312 <- 312  # line 312
+```
+
+## Section 40
+
+Paragraph text for section 40, sentence 1.
+This is ordinary prose, as in a typical worksheet.
+Line 313.
+Paragraph text for section 40, sentence 2.
+This is ordinary prose, as in a typical worksheet.
+Line 314.
+Paragraph text for section 40, sentence 3.
+This is ordinary prose, as in a typical worksheet.
+Line 315.
+Paragraph text for section 40, sentence 4.
+This is ordinary prose, as in a typical worksheet.
+Line 316.
+
+```{r}
+x_317 <- 317  # line 317
+x_318 <- 318  # line 318
+x_319 <- 319  # line 319
+x_320 <- 320  # line 320
+```

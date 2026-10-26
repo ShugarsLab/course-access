@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Output the Word converter writes beside a deck
+_snapshots/
+
+# Office lock files and system files
+~$*
+.DS_Store
+Thumbs.db
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Review notes for the authors; never commit
+REVIEW.md
